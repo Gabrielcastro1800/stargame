@@ -1,6 +1,6 @@
 alert("6")
 let canvas = document.getElementById("canvas");
-let c = canvas.canvas.getContext("2d");
+let c = canvas.getContext("2d");
 let tela = 1
 alert("5")
 let images = []
