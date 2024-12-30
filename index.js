@@ -6,7 +6,7 @@ let images = []
 images[0] = new Image()
 images[0].src = "sprites/kidgoku.png"
 
-setInterval(main(),17);
+setInterval(main(),500);
 
 function main(){
 if( tela == 1){
