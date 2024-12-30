@@ -10,7 +10,7 @@ setInterval(main(),17);
 
 function main(){
 if( tela == 1){
-c.drawImage()
+c.drawImage(images[0],100,100)
 
 }
 }
