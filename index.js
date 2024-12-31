@@ -8,8 +8,8 @@ c.imageSmoothingEnabled = false;
 let images = []
 images[0] = new Image()
 images[0].src = "sprites/kidgoku.png"
- // chars = [[name,image id,base hp,base str,base def,base speed,(mana,ki,chakra,etc),stamina],[]]
-let chars = [["Kid goku",0,150,10,7,5,100,20]]
+ // chars = [[name,image id,base hp,base str,base def,base speed,(mana,ki,chakra,etc),stamina,skills,weaks,statsMultiplier],[]]
+let chars = [["Kid goku",0,150,10,7,5,100,20,"fullmoon",,1.05]]
 let slots = []
 
 setInterval(main(),500);
