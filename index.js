@@ -25,13 +25,13 @@ function main(){
 if( tela == 1){
 
     if(!(slots[0] == null)){
-        c.drawImage(slots[0][1],100,200,128,128)
+        c.drawImage(images[slots[0][1]],100,200,128,128)
     }
     if(!(slots[1] == null)){
-        c.drawImage(slots[1][1],400,500,128,128)
+        c.drawImage(images[slots[1][1]],400,500,128,128)
     }
     if(!(slots[2] == null)){
-        c.drawImage(slots[2][1],100,700,128,128)
+        c.drawImage(images[slots[2][1]],100,700,128,128)
     }
 }
 }
