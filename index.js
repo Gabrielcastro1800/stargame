@@ -18,13 +18,20 @@ let chars = [["Kid goku",0,150,10,7,5,100,20,"Martial arts Attack",1.07,],
 ["Superman",2,1500,50,200,120,0,450,"Holding punch","Frost breath","Heat Vision","Xray vision","Super Punch",1.005,"Kripitonite weakness","Sound weakness"]
 ]
 let slots = []
-
+slots = chars
 setInterval(main(),500);
 
 function main(){
 if( tela == 1){
-    c.drawImage(images[0],100,200,128,128)
-    c.drawImage(images[1],200,400,128,128)
-    c.drawImage(images[2],100,600,128,128)
+
+    if(!(slots[0] == null)){
+        c.drawImage(slots[0][1],100,200,128,128)
+    }
+    if(!(slots[1] == null)){
+        c.drawImage(slots[1][1],200,500,128,128)
+    }
+    if(!(slots[2] == null)){
+        c.drawImage(slots[2][1],100,600,128,128)
+    }
 }
 }
